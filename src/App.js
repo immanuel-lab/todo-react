@@ -10,19 +10,16 @@ import Profile from "./components/login111";
 // import Login from "./components/button";
 import Login111 from "./components/login111";
 import Button from "./components/button";
-
+import Practise from "./components/practise";
 
 
 function App() {
   return (
     <div>
       
-    <Navbar/>
+    {/* <Navbar/> */}
     
-    {/* <Modal/> */}
-
-    {/* <Login111/>
-    <Button/> */}
+    <Practise/>
    
     </div>
   );
