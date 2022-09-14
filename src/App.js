@@ -11,6 +11,7 @@ import Profile from "./components/login111";
 import Login111 from "./components/login111";
 import Button from "./components/button";
 import Practise from "./components/practise";
+import Infinitescroll from "./components/infinitescroll";
 
 
 function App() {
@@ -18,9 +19,8 @@ function App() {
     <div>
       
     {/* <Navbar/> */}
-    
-    <Practise/>
-   
+    <Infinitescroll/>
+    {/* <Practise/> */}
     </div>
   );
 }
