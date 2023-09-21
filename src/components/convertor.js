@@ -40,7 +40,7 @@ function keyEnter(e){
          <br></br><br></br>
 
 
-    { show || key? 
+    { (show || key) && val !===""? 
     <div>
         <p>{val } canadian dollar is {val * 60} rupees</p>
         <p>{val} american dollar is {val * 78} rupees</p>
